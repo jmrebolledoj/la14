@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="es-CL">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#080a09">
+    <title>La 14 — Entrena con nosotros</title>
+    <meta name="description" content="¿Hasta dónde puede llegar tu juego? Conoce La 14, una escuela de fútbol en Chile con formación UEFA y chilena en su equipo técnico.">
+    <meta property="og:title" content="La 14 — Entrena con nosotros">
+    <meta property="og:description" content="¿Hasta dónde puede llegar tu juego?">
+    <meta property="og:type" content="website">
+    <link rel="icon" type="image/webp" href="/assets/la14.webp">
+    <link rel="preload" href="/assets/teko-variable.ttf" as="font" type="font/ttf" crossorigin>
+    <link rel="stylesheet" href="/styles.css">
+    <script src="/site.js" defer></script>
+  </head>
+  <body>
+    <main class="landing">
+      <canvas class="pitch" aria-hidden="true"></canvas>
+      <header class="header">
+        <div class="brand"><img src="/assets/la14.webp" alt="La 14" width="350" height="350"></div>
+        <nav aria-label="Secciones de La 14">
+          <ul>
+            <li>La escuela</li>
+            <li>El método</li>
+            <li>Entrenadores</li>
+          </ul>
+        </nav>
+      </header>
+
+      <section class="hero" aria-labelledby="question">
+        <h1 id="question">
+          <span>¿Hasta dónde puede</span>
+          <span>llegar tu juego?</span>
+        </h1>
+        <p class="answer">Entrena con nosotros. <strong>Entrena con La 14.</strong></p>
+        <button class="discover" type="button" aria-haspopup="dialog">Descubre La 14</button>
+      </section>
+
+      <footer class="credentials">
+        <p>Credenciales del equipo</p>
+        <div class="association-marks">
+          <img class="uefa-mark" src="/assets/uefa.svg" alt="UEFA" width="225" height="100">
+          <span class="anfp-mark"><img src="/assets/anfp.png" alt="ANFP" width="700" height="394"></span>
+        </div>
+      </footer>
+    </main>
+
+    <dialog class="team" aria-labelledby="team-title">
+      <button class="close" type="button" autofocus>Volver</button>
+      <h2 id="team-title">Tres entrenadores.<br>Un mismo equipo.</h2>
+      <p class="team-intro">La 14. Escuela de fútbol en Chile.</p>
+      <dl>
+        <div><dt>Credenciales UEFA</dt><dd>Dos entrenadores</dd></div>
+        <div><dt>Formación en Chile</dt><dd>Un entrenador</dd></div>
+      </dl>
+    </dialog>
+  </body>
+</html>
